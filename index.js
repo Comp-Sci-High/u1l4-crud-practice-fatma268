@@ -14,19 +14,23 @@ readingList.splice(0, 1)
 
 // OBJECTS
 // Task 3: Create a book object that has the keys title, author, and pages. Use values that make sense. 
+let bookObject = {
+    title: "Book",
+    authour: "Authour",
+    pages: 72
 
+}
 
 // Task 4
 // Add a key hasRead to the book object and set it to false
-
+bookObject.hasRead = false
 // Console log object
-
+console.log(bookObject)
 // Console log the hasRead property
-
+console.log(bookObject.hasRead)
 
 // Commit changes this section with an appropriate commit message
-// -----------------
-
+// ----------------
 
 // NESTED ARRAYS & OBJECTS
 // Task 5
