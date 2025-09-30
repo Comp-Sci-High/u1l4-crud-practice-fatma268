@@ -1,14 +1,14 @@
 // ARRAYS
 // Task 1
 // Create an array called readingList and with at least 2 books you want to read
-
+let readingList = ["A Game of Thrones", "The Witcher Series"]
 // Add a new book to readingList using an array method 
-
+readingList.push("Little Red Riding Hood")
 // Task 2
 // Update the second book to be "Beginning NodeJS"
-
+readingList[1] = "Beginning NodeJS"
 // Delete the first book of the array
-
+readingList.splice(0, 1)
 // Commit changes this section with an appropriate commit message
 // -----------------
 
